@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.task-item {
+  padding: 20px;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-item.done {
+  background-color: #4caf50;
+}
+
+.task-item.in-progress {
+  background-color: #ffc107;
+}
